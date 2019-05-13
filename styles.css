@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    height: 100%;
+}
+
+h1, header h2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;
+    border: 2px solid black;
+}
+
+header h2 {
+    font-size: 2em;
+    padding-bottom: 5px;
+}
+
+.portfolio-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.portfolio-links img {
+    width: 50px;
+    display: inline-block;
+}
+
+.bio {
+    border: 2px solid black;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    width: 85%;
+}
+
+.projects-link-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.projects-link, .projects-text {
+    font-size: 45px;
+
+}
+
+.projects-text {
+    font-style: italic;
+}
+
+.project {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.project-header {
+    font-size: 36px;
+    padding-top: 3%;
+}
+
+.project-description {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project1-bg {
+    height: 200px;
+    margin-top: 65px;
+    border: 2px solid white;
+}
+
+.app-links {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tech-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border: 2px solid white;
+}
+
+.tech-icons img {
+    height: 50px;
+}
+
+@media screen and (min-width: 700px) {
+    .projects-link-container {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
